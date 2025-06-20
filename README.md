@@ -55,7 +55,7 @@ public class UserController {
     }
 
     @PutMapping(path = "/{userId}")
-    public void modify(@PathVariable("userId") String userId
+    public void modify(@PathVariable("userId") String userId,
                        @RequestParam("age") int age) {
         ...
     }
